@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accurate Holiday</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+        .head {
+            font-size: 2vmax;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        nav {
+            /* border: 2px solid black; */
+            height: 3vmax;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+            position: sticky;
+            top: 0%;
+            background-color: rgb(215, 245, 240);
+            z-index: 10000;
+        }
+
+        .left {
+            /* border: 2px solid navy; */
+            width: 20%;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .left>a {
+            text-decoration: none;
+            color: rgb(237, 112, 235);
+            font-size: 2vmax;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* border: 1px solid yellow; */
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            padding: 10px;
+            width: 60%;
+            display: flex;
+            justify-content: space-evenly;
+            align-self: stretch;
+        }
+
+        .mid>a {
+            text-decoration: none;
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.4vmax;
+            /* border: 1px solid yellow; */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .mid>a:hover {
+            cursor: pointer;
+            color: palevioletred;
+            border-bottom: 2px solid grey;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            width: 20%;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .right>img {
+            width: 2.5vmax;
+            margin: 8px;
+            cursor: pointer;
+        }
+        #wel{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 55px;
+        }
+        .about{
+            text-align: center;
+            color: rgb(145, 33, 54);
+            font-size: 3vmax;
+            margin: 3vmax auto;
+            padding: 1vmax;
+            width: 25vw;
+            border-bottom: 5px solid seagreen;
+            border-radius: 50%;
+        }
+        .para{
+            font-size: 40px;
+            font-family: cursive;
+        }
+        #gal {
+            text-align: center;
+            color: rgb(145, 33, 54);
+            font-size: 3vmax;
+            margin: 3vmax auto;
+            padding: 1vmax;
+            width: 25vw;
+            border-bottom: 5px solid seagreen;
+            border-radius: 50%;
+        }
+       #contact{
+        text-align: center;
+            color: rgb(149, 113, 119);
+            font-size: 3vmax;
+            margin: 3vmax auto;
+            padding: 1vmax;
+            width: 25vw;
+            border-bottom: 5px solid seagreen;
+            border-radius: 50%;
+       }
+
+       .contact{
+        width: 100%;
+        background-color: burlywood;
+        text-align: center;
+        color: black;
+        font-size: x-large;
+       }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1 class="head">
+            <marquee behavior="" direction="">Tour My India</marquee>
+        </h1>
+        <nav>
+            <div class="left">
+                <a href="https://aryablogsdotin.wordpress.com/blog/" target="_blank">ȺའӋȺ</a>
+            </div>
+            <div class="mid">
+                <a href="#home">HOME</a>
+                <a href="#about">About Us</a>
+                <a href="">Menu</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#gallery">Gallery</a>
+            </div>
+            <div class="right">
+                <img src="image/icons8-male-user-96.png" alt="">
+            </div>
+
+        </nav><br><br>
+
+        <div>
+            <img src="/image/h1 (2).jpg" alt="" width="100%">
+        </div>
+    </form>
+
+    <h1 id="wel"><marquee behavior="" direction="">Welcome In India</marquee></h1>
+    <table id="home">
+        <tr>
+            <td>
+                <img src="image/(4).jpg" alt="" width="100%" height="">
+            </td>
+        </tr>
+    </table>
+
+    <h1 class="about">About Us</h1>
+
+    <table border="1" align="center" id="about">
+        <tr>
+            <td>
+                <p class="para">It is a prototype website.Its purpose is to see how well the site is working.</p>
+                <img src="image/(1).jpg" alt="" width="100%">
+            </td>
+        </tr>
+    </table>
+    <div>
+        <h1 id="gal"> GALLERY </h1>
+    </div>
+    <table border="20" align="center" id="gallery">
+        <tr align="center">
+            <td>
+                <img src="/image/h1 (4).jpg" alt="" height="150px" width="150PX">
+            </td>
+            <td>
+                <img src="image/h1 (5).jpg" alt="" height="150px" width="150px">
+            </td>
+            <td>
+                <img src="image/h1 (1).jpg" alt="" height="150px" width="150px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="image/h1 (3).jpg" alt="" height="150px" width="150PX">
+            </td>
+            <td>
+                <img src="image/h1 (2).jpg" alt="" height="150px" width="150px">
+            </td>
+            <td>
+                <img src="image/h1 (6).jpg" alt="" height="150px" width="150px">
+            </td>
+        </tr>
+
+    </table>
+   <div> <h1 id="contact"> Registration Form </h1></div>
+    <table  class="contact">
+        <tr >
+            <td> <label for=""> First Name </label> </td>
+            <td> <input type="text" placeholder="Your First Name" required autofocus></td>
+        </tr>
+        <tr >
+            <td> <label for=""> Last Name </label></td>
+            <td> <input type="text" placeholder="Your Last Name"></td>
+        </tr>
+        <tr>
+            <td><label for="">Email</label></td>
+            <td> <input type="text" placeholder="eg:-abc@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="">Phone Number</label></td>
+            <td> <input type="tel" placeholder="" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td><label for="">Date Of Birth</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td> <input type="radio" name="r1" id="">Male <input type="radio" name="r1">Female</td>
+
+        </tr>
+        <tr>
+            <td><label for=""> Address: </label></td>
+            <td> <textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for=""><b> City </b></label></td>
+            <td><select name="City" id="city">
+                    <option value=""> Delhi </option>
+                    <option value=""> Haryana </option>
+                    <option value=""> Noida </option>
+                    <option value=""> Mumbai </option>
+                    <option value=""> Pune </option>
+                    <option value="" selected disabled></option>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2"><input type="SUBMIT" value="Register"><input type="RESET"> </td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
+</body>
+
+</html>
